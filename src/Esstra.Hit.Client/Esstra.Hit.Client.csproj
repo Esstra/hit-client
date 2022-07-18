@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<Authors>Esstra microchips</Authors>
+		<Product>HIT Client Library</Product>
+		<Description>Eine dotnet Bibliothek mit Funktionen zum einfachen Zugriff auf das HIT-System.</Description>
+		<PackageIcon>pkgicon.png</PackageIcon>
+		<PackageTags>hi-tier, hit, esstra</PackageTags>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RepositoryUrl>https://github.com/Esstra/hit-client</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="pkgicon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+	</ItemGroup>
+
+</Project>
