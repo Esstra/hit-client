@@ -4,7 +4,7 @@ Diese Bibliothek stellt Funktionen zur Verfügung, die den Zugriff auf das "[Her
 
 # Verwendung
 
-Die Bibliothek kann via nuget installier werden:
+Die Bibliothek kann via NuGet installiert werden:
 
 ```dotnet add package Esstra.Hit.Client```
 
