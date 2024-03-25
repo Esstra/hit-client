@@ -4,6 +4,10 @@ Diese Bibliothek stellt Funktionen zur Verfügung, die den Zugriff auf das "[Her
 
 # Verwendung
 
+Die Bibliothek kann via nuget installier werden:
+
+```dotnet add package Esstra.Hit.Client```
+
 Die Klasse `Esstra.Hit.Client.HitClient` stellt alle Funktionen für den Zugriff auf das HIT System zur Verfügung. Idealerweise wird diese Klasse mittels Dependency Injection angefragt. Für die [Dependency Injection Komponenten aus dem Microsoft Extensions Framework](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage), liefert die Bibliothek entsprechende Funktionen mit:
 
 ```csharp
